@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+
+    border: 1px solid black;
+}
+
+header {
+
+
+    border: 1px solid black;
+    background-color: darkgreen;
+}
+
+.headline {
+    text-align: center;
+
+}
+
+nav {
+    width: 50%;
+    margin: auto;
+}
+
+ul {
+    text-align: center;
+    padding: 0;
+}
+.nav-list {
+    display: inline-block;
+    border: 1px solid black;
+    width: 20%;
+}
+
+section {
+    background-color: #63512b;
+    width: 50%;
+    margin: auto;
+}
