@@ -5,7 +5,13 @@ body {
     width: 50%;
     height: 100%;
     margin: 0 auto;
-    background: linear-gradient(#e66465, #9198e5)
+    background: linear-gradient(#e66465, #9198e5);
+    transform: rotate(0deg);
+    transition: 3s;
+}
+
+body:hover {
+    transform: rotate(180deg);
 }
 
 header {
@@ -45,8 +51,6 @@ section {
 
 footer {
     background-color: cornflowerblue;
-    border-bottom-left-radius: 60px;
-    border-bottom-right-radius: 60px;
 }
 
 footer {
