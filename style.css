@@ -1,43 +1,47 @@
 body {
-    margin: 0;
-}
-
-.container {
     width: 50%;
-    margin: auto;
-
-    border: 1px solid black;
+    margin: 0 auto;
 }
 
 header {
-
-
+    text-align: center;
+    background-color: cornflowerblue;
     border: 1px solid black;
-    background-color: darkgreen;
 }
 
 .headline {
-    text-align: center;
-
+    display: inline;
+    font-size: 3em;
 }
 
-nav {
-    width: 50%;
-    margin: auto;
-}
-
-ul {
-    text-align: center;
+.nav-ul {
+    margin: 0;
     padding: 0;
+    text-align: center;
+    background-color: cadetblue;
 }
-.nav-list {
+
+.nav-li {
     display: inline-block;
-    border: 1px solid black;
-    width: 20%;
+    width: 24.6%;
+}
+
+.nav-li:hover {
+    background-color: cyan;
+    font-weight: bold;
 }
 
 section {
-    background-color: #63512b;
-    width: 50%;
-    margin: auto;
+    background-color: cornsilk;
+    text-align: center;
+    height: 500px;
 }
+
+footer {
+    background-color: cornflowerblue;
+}
+
+footer {
+    text-align: center;
+}
+
