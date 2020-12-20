@@ -1,12 +1,16 @@
+html {
+    height: 100%;
+}
 body {
     width: 50%;
+    height: 100%;
     margin: 0 auto;
+    background: linear-gradient(#e66465, #9198e5)
 }
 
 header {
     text-align: center;
     background-color: cornflowerblue;
-    border: 1px solid black;
 }
 
 .headline {
@@ -34,7 +38,7 @@ header {
 section {
     background-color: cornsilk;
     text-align: center;
-    height: 500px;
+    height: 83.5%;
 }
 
 footer {
